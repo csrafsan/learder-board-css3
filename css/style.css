@@ -1,0 +1,127 @@
+/* google font poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    background-color: #F3F1FF;
+    font-family: "Poppins", sans-serif;
+
+
+}
+.header{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 94px;
+}
+
+.logo{
+    display: flex;
+    color: white;
+
+
+}
+
+.logo h3{
+    margin-left: 10px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    
+
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.logo img{
+    height: 51px;
+    width: 41px;
+}
+
+.container{
+    background-color: #FFFFFF;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 10px;
+
+}
+
+.body-top{
+    padding: 20px;
+}
+
+.container h2{
+    color: #562EFF;
+}
+.top-player hr{
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    
+}
+
+ .profiles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 30px;
+}
+.profiles .profile{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.profiles .profile img{
+    width: 56px ;
+}
+.profiles .profile span{
+    margin-left: 10px;
+}
+
+
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+
+.blogs img{
+    width: 100px;
+}
+
+.blogs .blog{
+    display: flex;
+
+}
+
+.blogs .blog .text{
+    margin-left: 20px;
+}
+.blogs .blog .text h3{
+    margin-bottom: 10px;
+    word-break: break-all;
+}
+
+.blogs .blog .text a{
+    color:#562EFF;
+    text-decoration: none;
+}
+
+
+    /* .blogs .blog .text .author{
+        color: #562EFF;
+    } */
